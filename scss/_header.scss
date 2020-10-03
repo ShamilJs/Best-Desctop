@@ -112,11 +112,6 @@
         &__element {
             max-width: 720px;
             min-height: 250px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            text-align: center;
             margin-top: 106px;
         }
     }
@@ -134,9 +129,6 @@
     .right {
         &__menu {
             width: 353px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             margin-right: 53px;
         }
         &__menu-item {
@@ -166,5 +158,44 @@
         &__dowload {
             margin-right: 40px;
         }
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .header {
+        background: url('/img/header/01.png') 0 0/100% 100% no-repeat;
+        &__container {
+            padding: 0 80px;
+        }
+        &__element {
+            max-width: 720px;
+            min-height: 250px;
+            margin-top: 106px;
+        }
+    }
+    .nav {
+        &__left {
+            width: 170px;
+            height: 91px;
+            border-radius: 0 0 22px 22px;
+            padding-top: 30px;
+            a {
+                font-size: 32px;
+            }
+        }
+    }
+    .right {
+        &__menu-item {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 27px;
+        }
+    }
+    .btn {
+        width: 150px;
+        height: 45px;
+        border-radius: 25px;
+        font-size: 16px;
+        line-height: 27px;
     }
 }
