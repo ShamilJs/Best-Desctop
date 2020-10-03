@@ -210,3 +210,74 @@ body {
   border: 2px solid #0f7bff;
   color: #0f7bff;
 }
+
+@media only screen and (max-width: 2560px) {
+  .header {
+    background: url("/img/header/01.png") 0 0/100% 100% no-repeat;
+  }
+  .header__container {
+    padding: 0 250px;
+  }
+  .header__element {
+    max-width: 720px;
+    min-height: 250px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    margin-top: 106px;
+  }
+  .nav__left {
+    width: 200px;
+    height: 121px;
+    border-radius: 0 0 25px 25px;
+    padding-top: 50px;
+  }
+  .nav__left a {
+    font-size: 38px;
+  }
+  .right__menu {
+    width: 353px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 53px;
+  }
+  .right__menu-item {
+    font-size: 20px;
+    font-weight: 520;
+    line-height: 29px;
+  }
+  .btn {
+    width: 170px;
+    height: 55px;
+    border-radius: 27px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .element__title {
+    font-size: 40px;
+    line-height: 26px;
+  }
+  .element__text {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .button__dowload {
+    margin-right: 40px;
+  }
+}
