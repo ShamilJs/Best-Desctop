@@ -5,8 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Best Desctop</title>
 	<link rel="stylesheet" href="css/style.css" />
+	<script src="/js/script.js" defer></script>
 </head>
 <body>
+	<header class="header">
 		<div class="header__container">
 			<nav class="header__nav nav">
 				<div class="nav__leftt">
@@ -22,7 +24,7 @@
 				<div class="nav__right right">
 					<div class="right__menu">
 						<a href="" class="right__menu-item activ">Home</a>
-						<a href="" class="right__menu-item">Features</a>
+						<a href="#features" class="right__menu-item">Features</a>
 						<a href="" class="right__menu-item">Pricing</a>
 						<a href="" class="right__menu-item">Pages</a>
 					</div>
@@ -49,14 +51,14 @@
 	<div class="popup">
 		<div class="popup__item">
 			<a href="" class="right__menu-item activ">Home</a>
-			<a href="" class="right__menu-item">Features</a>
+			<a href="#features" class="right__menu-item">Features</a>
 			<a href="" class="right__menu-item">Pricing</a>
 			<a href="" class="right__menu-item">Pages</a>
 			<a href="" class="nav__left">AppSon</a>
 			<button >X</button>
 		</div>
 	</div> 
-	<div class="features">
+	<div id="features" class="features">
 		<div class="container">
 			<div class="features__item item">
 				<div id="analysis-one" class="item__analysis">
@@ -105,7 +107,41 @@
 				<a href="#analysis-three"></a>
 			</div>
 		</div>
-	</div>		
+	</div>	
+	<div class="about">
+		<div class="container">
+			<div class="about__wrap">
+				<div class="about__up about-item">
+					<div class="about-item__img">
+						<img src="/img/about/01.png" alt="about">
+					</div>
+					<div class="about-item__block block">
+						<p class="block__title">Easy Messaging</p>
+						<p class="block__text">Lorem ipsum dolor sit amet, 
+							consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<a href="" class="block__read-more">Read More</a>
+					</div>
+				</div>
+				<div class="about__down about-item">
+					<div class="about-item__block block">
+						<p class="block__title">Keep In Touch</p>
+						<p class="block__text">Lorem ipsum dolor sit amet, 
+							consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<a href="" class="block__read-more">Read More</a>
+					</div>
+					<div class="about-item__img">
+						<img src="/img/about/02.png" alt="about">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
 </body>
 </html>
 

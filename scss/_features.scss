@@ -1,5 +1,6 @@
 .anchor{
     display: flex;
+    justify-content: center;
     a{
         display: none;
         width: 30px;
@@ -12,7 +13,6 @@
         background-color: #0f7bff;
     }
 }
-
 
 .features {
 	background-color: #f5fcfd;
@@ -29,7 +29,7 @@
 	}
 }
 .container {
-	max-width: 1370px;
+	width: 1370px;
 	height: 100%;
 }
 .item {
@@ -73,22 +73,16 @@
     .item {
         &__analysis {
             width: 300px;
-            height: 230 px;
+            height: 230px;
         }
         &__title {
       
             font-size: 16px;
-            font-weight: 500;
-            line-height: 27px;
         }
         &__text {
-     
             font-size: 14px;
-            font-weight: 400;
-            line-height: 27px;
         }
     }
-    
 }
 
 @media only screen and (max-width: 768px){
@@ -104,16 +98,11 @@
             height: 380px;
         }
         &__title {
-      
             font-size: 16px;
-            font-weight: 500;
-            line-height: 27px;
         }
         &__text {
      
             font-size: 12px;
-            font-weight: 400;
-            line-height: 27px;
         }
     }
     
@@ -137,16 +126,10 @@
             }
         }
         &__title {
-      
             font-size: 16px;
-            font-weight: 500;
-            line-height: 27px;
         }
         &__text {
-     
             font-size: 12px;
-            font-weight: 400;
-            line-height: 27px;
         }
     }
     .anchor{
