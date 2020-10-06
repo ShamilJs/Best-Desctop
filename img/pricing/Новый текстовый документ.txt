@@ -1,0 +1,34 @@
+<div class="pricing">
+	<div class="container">
+		<div class="pricing__wrap">
+			<div class="pricing__plan plan">
+				<div class="plan__title">Pricing Plan</div>
+				<div class="plan__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+				</div>
+        			<div class="plan__button">
+          				<button class="plan__month btn">Montnly</button>
+          				<button class="plan__month btn -white">Yearly</button>
+        			</div>
+      			</div>
+      			<div class="pricing__standart price-list">
+        			<div class="price-list__img">
+          				<img src="" alt="01">
+        			</div>
+        			<div class="price-list__title">Standard</div>
+        			<div class="price-list__text">Free Supportbr<br>50 gb Bandwith<br>SSD Hosting<br>10 Custom Domain<br>2gb Hosting</div>
+       				<div class="price-list__price">$19.00</div>
+        			<button class="price-list__button btn">Try Now</button>
+      			</div>
+      			<div class="pricing__premium price-list">
+                		<div class="price-list__img">
+          				<img src="" alt="02">
+        			</div>
+        			<div class="price-list__title">Premium</div>
+       				<div class="price-list__text">Free Supportbr<br>50 gb Bandwith<br>SSD Hosting<br>10 Custom Domain<br>2gb Hosting</div>
+        			<div class="price-list__price">$49.00</div>
+        			<button class="price-list__button btn -white">Try Now</button>
+      			</div>
+   		 </div>
+	</div>
+</div>

@@ -1,0 +1,33 @@
+<div class="how">
+	<div class="container">
+		<div class="how__contain contain">
+			<p class="contain__title">How Does It Works?</p>
+				<p class="contain__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+				</p>
+  		</div>
+		<div class="how__create create">
+      			<div class="create__item account">
+       				<div class="account__img">
+          				<img src="" alt="01">
+        			</div>
+        			<div class="account__title">Create An Account</div>
+        			<div class="account__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+    			</div>
+       			<div class="create__item account">
+             			<div class="account__img">
+          				<img src="" alt="02">
+        			</div>
+        			<div class="account__title">Create An Account</div>
+       				<div class="account__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+    			</div>
+       			<div class="create__item account">
+             			<div class="account__img">
+          				<img src="" alt="03">
+        			</div>
+        			<div class="account__title">Create An Account</div>
+        			<div class="account__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+    			</div>
+   		</div>
+	</div>
+</div>
