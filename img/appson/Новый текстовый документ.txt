@@ -1,0 +1,7 @@
+<div class="appson">
+	<form class="appson_form form">
+		<p class="form__title">AppSon</p>
+		<input class="form__contact" name="E-mail" placeholder="Enter Your Email"></input>
+		<button type="submit" class="form__button btn -white">SUBSCRIBE</button>
+	</form>
+</div>

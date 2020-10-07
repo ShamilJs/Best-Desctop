@@ -1,0 +1,134 @@
+.trial {
+    background-color: #f5fcfd;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__container {
+        width: 752px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .trial__left
+
+    &__left {
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    // .trial__title
+
+    &__title {
+        color: #333333;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    // .trial__text
+
+    &__text {
+        color: #929292;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+    // .trial__btn
+
+    &__btn {
+        display: block;
+        width: 263px;
+        height: 76px;
+        border-radius: 5px;
+        background-color: #0f7bff;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 27px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            width: 120px;
+            background: url(../img/trial/01.svg) right 5px no-repeat;
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .trial {
+        height: 300px;
+        &__container {
+            width: 650px;
+        }
+    
+        // .trial__left
+    
+        &__left {
+            height: 76px;
+        }
+    
+        // .trial__title
+    
+        &__title {
+            font-size: 28px;
+        }
+    
+        // .trial__text
+    
+        &__text {
+            font-size: 16px;
+        }
+    
+        // .trial__btn
+    
+        &__btn {
+            width: 230px;
+            height: 70px; 
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .trial {
+        height: 300px;
+        &__container {
+            width: 300px;
+            height: 200px;
+            flex-direction: column;
+        }
+    
+        // .trial__left
+    
+        &__left {
+            height: 76px;
+        }
+    
+        // .trial__title
+    
+        &__title {
+            font-size: 24px;
+        }
+    
+        // .trial__text
+    
+        &__text {
+            font-size: 14px;
+        }
+    
+        // .trial__btn
+    
+        &__btn {
+            width: 215px;
+            height: 70px; 
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<div class="testimonials">
+	<div class="testimonials__wrap">
+		<div class="testimonials__left">
+			<div class="testimonials__img">
+				<img src="" alt="01">
+			</div>
+		</div>
+		<div class="testimonials__right trusted">
+			<p class="trusted__title">Trusted By More Than 55M Peoples</p>
+			<div class="trusted__wrap slider">
+				<div id="slider-one" class="slider__item">
+					<p class="slider__title">Raisa Moni</p>
+					<p class="slider__name">Envato Customer</p>
+					<p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore etamet.</p>
+        			</div>
+				<div id="slider-two" class="slider__item">
+					<p class="slider__title">Raisa Moni</p>
+					<p class="slider__name">Envato Customer</p>
+					<p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore etamet.</p>
+        			</div>
+				<div id="slider-three" class="slider__item">
+					<p class="slider__title">Raisa Moni</p>
+        				<p class="slider__name">Envato Customer</p>
+        				<p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore etamet.</p>
+        			</div>
+      			</div>
+      			<div class="slider__btn anchor">
+				<a href="#slider-one" class="anchor-active"></a>
+				<a href="#slider-two"></a>
+				<a href="#slider-three"></a>
+			</div>
+    		</div>
+	</div>
+</div>

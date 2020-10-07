@@ -1,0 +1,53 @@
+<div class="news">
+	<div class="container">
+    		<div class="news__blog-title blog-title">
+      			<div class="blog-title__img">
+        			<img src="" alt="01">
+      			</div>
+      			<p class="blog-title__title">Latest News From Us</p>
+      			<p class="blog-title__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
+    		</div>
+    		<div class="news__blog-items blog-items">
+      			<div class="blog-items__item news-left">
+       				<div class="news-left__img">
+          				<img src="" alt="02">
+        			</div>
+        			<p class="news-left__title title-active">The master bedroom suite is phenomenally spacious</p>
+        			<p class="news-left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        			<a href="" class="news-left__read block__read-more">Continue Reading</a>
+      			</div>
+      			<div class="news__blog-items news-right">
+        			<div class="news-right__block">
+        				<div class="news-right__img">
+          					<img src="" alt="03">
+       					</div>
+        				<p class="news-right__title">The master bedroom suite is phenomenally spacious</p>
+        				<p class="news-right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        			</div>
+                		<div class="news-right__block">
+        				<div class="news-right__img">
+          					<img src="" alt="04">
+        				</div>
+        				<p class="news-right__title">The master bedroom suite is phenomenally spacious</p>
+        				<p class="news-right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        			</div>
+                		<div class="news-right__block">
+        				<div class="news-right__img">
+          					<img src="" alt="05">
+        				</div>
+        				<p class="news-right__title">The master bedroom suite is phenomenally spacious</p>
+        				<p class="news-right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        			</div>
+     			</div>
+    		</div> 
+	</div> 
+</div>

@@ -1,0 +1,9 @@
+<div class="trial">
+  <div class="container">
+    <div class="trial__left">
+      <div class="trial__title">Try 30 Days Free Trial</div>
+      <div class="trial__text">No credit card required</div>
+    </div>
+    <a href="" class="trial__btn">Get Started</a>
+  </div>
+</div>
