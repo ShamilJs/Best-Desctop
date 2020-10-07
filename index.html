@@ -8,7 +8,7 @@
 		<script src="./js/script.js" defer></script>
 	</head>
 	<body>
-		<header class="header">
+		<header id="header" class="header">
 			<div class="header__container">
 				<nav class="header__nav nav">
 					<div class="nav__leftt">
@@ -52,9 +52,9 @@
 			<div class="popup__item">
 				<a href="" class="right__menu-item activ">Home</a>
 				<a href="#features" class="right__menu-item">Features</a>
-				<a href="" class="right__menu-item">Pricing</a>
+				<a href="#pricing" class="right__menu-item">Pricing</a>
 				<a href="" class="right__menu-item">Pages</a>
-				<a href="" class="nav__left">AppSon</a>
+				<a href="#appson" class="nav__left btn">AppSon</a>
 				<button >X</button>
 			</div>
 		</div> 
@@ -175,7 +175,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div id="pricing" class="pricing">
+		<div id="pricing" class="pricing">
 				<div class="pricing__wrap">
 					<div class="pricing__plan plan">
 						<div class="plan__title">Pricing Plan</div>
@@ -206,7 +206,7 @@
 							<button class="price-list__button month-right btn -white">Try Now</button>
 					</div>
 				</div>
-		</div> -->
+		</div>
 		<div class="testimonials">
 	<div class="testimonials__wrap">
 		<div class="testimonials__left">
@@ -306,11 +306,37 @@
 		<form class="appson_form form">
 			<p class="form__title">AppSon</p>
 			<div class="form__submit">
-				<input class="form__contact" name="E-mail" placeholder="Enter Your Email"></input>
+				<input type="email" class="form__contact" name="E-mail" placeholder="Enter Your Email"></input>
 				<button type="submit" class="form__button btn -white">SUBSCRIBE</button>
 			</div>
 			
 		</form>
+	</div>
+	<div class="footer">
+		<div class="footer__container ">
+			<p class="footer__text">© 2018 Copyright, All Rights Reserved by AppSon</p>
+			<div class="footer__link link">
+				<div class="link__menu">
+					<a class="footer__active"  href="">Terms & Condition</a>
+					<a href="">Privacy Policy</a>
+					<a href="">Help</a>         
+				</div>
+				<div class="link__social social">
+					<a href="" class="social__item">
+						<img src="./img/footer/01.svg" alt="facebook">
+					</a>
+					<a href="" class="social__item">
+						<img src="./img/footer/02.svg" alt="twitter">
+					</a>
+					<a href="" class="social__item">
+						<img src="./img/footer/03.svg" alt="youtube">
+					</a>
+					</div>
+				</div>
+		</div>
+		<a href="#header" class="footer__up">
+			<img src="./img/footer/04.svg" alt="up">
+		</a>
 	</div>
 	</body>
 </html>

@@ -48,6 +48,12 @@
     }
 }
 
+input[type="email"]::-webkit-input-placeholder { color: #ffffff; }
+   input[type="email"]:-ms-input-placeholder { color: #ffffff; }
+   input[type="email"]::-ms-input-placeholder { color: #ffffff; }
+   input[type="email"]::placeholder { color: #ffffff; } 
+
+
 @media only screen and (max-width: 425px) {
     .appson {
         height: 300px;
