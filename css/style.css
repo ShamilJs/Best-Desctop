@@ -80,6 +80,7 @@ html {
 }
 
 .popup {
+  display: none;
   width: 100%;
   height: 350px;
   border-radius: 0 0 30px 30px;
@@ -141,9 +142,16 @@ html {
   cursor: pointer;
 }
 
+.down {
+  position: absolute;
+  bottom: -5%;
+  left: 48%;
+}
+
 .header {
   height: 100%;
   background: url("../img/header/01.png") 0 0/100% 100% no-repeat;
+  position: relative;
 }
 
 .header__container {
@@ -331,6 +339,11 @@ html {
   .header__nav {
     width: 2050px;
   }
+  .down {
+    position: absolute;
+    bottom: -4%;
+    left: 49%;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -387,6 +400,11 @@ html {
 }
 
 @media only screen and (max-width: 1024px) {
+  .down {
+    position: absolute;
+    bottom: -4%;
+    left: 47%;
+  }
   .header__nav {
     width: 950px;
   }
@@ -440,6 +458,11 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .down {
+    position: absolute;
+    bottom: -4%;
+    left: 46%;
+  }
   .header__nav {
     width: 720px;
   }
@@ -493,6 +516,11 @@ html {
 }
 
 @media only screen and (max-width: 425px) {
+  .down {
+    position: absolute;
+    bottom: -4%;
+    left: 44%;
+  }
   .header {
     background: url("../img/header/01.png") 0 0/auto auto no-repeat;
   }

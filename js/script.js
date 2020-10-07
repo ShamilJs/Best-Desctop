@@ -45,3 +45,18 @@ const paintTheDot = () => {
     });
 };
 paintTheDot();
+
+
+const openPopup = () => {
+    const navBurger = document.querySelector('.nav__burger');
+    const popup = document.querySelector('.popup');
+    const close = document.querySelector('.popup__item > button');
+
+    navBurger.addEventListener('click', () => {
+        popup.style.display = 'block';
+    });
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+};
+openPopup();
