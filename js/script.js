@@ -26,7 +26,23 @@ const slider = () => {
 };
 slider();
 
+const footerUp = () => {
+    const footerUpBtn = document.querySelector('.footer__up');
+    const header = document.querySelector('.header');
+    let	topElem;
+    window.addEventListener('scroll', () => {
 
+       topElem = header.getBoundingClientRect().top;
+
+		if (topElem < -650) {
+            console.log(1);
+			footerUpBtn.style.display = 'flex';
+		} else {
+            footerUpBtn.style.display = 'none';
+        }
+	});
+};
+footerUp();
 
 const paintTheDot = () => {
     const anchors = document.querySelectorAll('.anchor > a');

@@ -186,6 +186,7 @@
 	font-weight: 700;
 	line-height: 27px;
 	&:hover{
+        border-color: transparent;
 		background-color: #003555;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	}
@@ -397,7 +398,7 @@
 @media only screen and (max-width: 768px) {
     .down{
         position: absolute;
-        bottom: -4%;
+        bottom: -5%;
         left: 46%;
     }
     .header {
@@ -469,8 +470,8 @@
 @media only screen and (max-width: 425px) {
     .down{
         position: absolute;
-        bottom: -4%;
-        left: 44%;
+        bottom: -5%;
+        left: 42%;
     }
     .header {
         
@@ -539,5 +540,12 @@
         &__dowload {
             margin-right: 20px;
         }  
+    }
+}
+@media only screen and (max-width: 320px) {
+    .down{
+        position: absolute;
+        bottom: -5%;
+        left: 39%;
     }
 }

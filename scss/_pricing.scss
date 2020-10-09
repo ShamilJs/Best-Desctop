@@ -164,9 +164,14 @@
 }
 
 @media only screen and (max-width: 425px){ 
-    
+    .price-list:nth-child(3) {
+        margin-right: 20px;
+    }
     .plan {
         margin: 0;
+        padding-right: 0;
+        align-items: center;
+        text-align: center;
         &__title {
             font-size: 22px;
             line-height: 30px;
@@ -213,9 +218,21 @@
 }
 
 .pricing__standart {
-    flex: 0 1 276px;
+    flex: 0 1 267px;
     }
     .pricing__premium{
         flex: 0 1 276px;
     }
 }
+
+@media only screen and (max-width: 425px){ 
+    .pricing__standart {
+        flex: 0 1 276px;
+        }
+        .pricing__premium{
+            flex: 0 1 276px;
+        }
+    }
+    .price-list:nth-child(3) {
+        margin-right: 15px;
+    }

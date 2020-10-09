@@ -77,6 +77,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  position: relative;
 }
 
 .popup {
@@ -295,6 +296,7 @@ html {
 }
 
 .btn:hover {
+  border-color: transparent;
   background-color: #003555;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -460,7 +462,7 @@ html {
 @media only screen and (max-width: 768px) {
   .down {
     position: absolute;
-    bottom: -4%;
+    bottom: -5%;
     left: 46%;
   }
   .header__nav {
@@ -518,8 +520,8 @@ html {
 @media only screen and (max-width: 425px) {
   .down {
     position: absolute;
-    bottom: -4%;
-    left: 44%;
+    bottom: -5%;
+    left: 42%;
   }
   .header {
     background: url("../img/header/01.png") 0 0/auto auto no-repeat;
@@ -581,6 +583,14 @@ html {
   }
   .button__dowload {
     margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .down {
+    position: absolute;
+    bottom: -5%;
+    left: 39%;
   }
 }
 
@@ -713,6 +723,9 @@ html {
 }
 
 @media only screen and (max-width: 425px) {
+  .features {
+    min-height: 500px;
+  }
   .features__item {
     margin-top: 50px;
     scroll-behavior: smooth;
@@ -935,6 +948,7 @@ html {
   }
   .about-item {
     width: 300px;
+    padding-top: 20px;
   }
   .about-item__img {
     margin-bottom: 20px;
@@ -1166,7 +1180,7 @@ html {
 
 @media only screen and (max-width: 425px) {
   .how__container {
-    padding: 0 10px 0 10px;
+    padding: 0 10px 15px 10px;
   }
   .create {
     -webkit-box-orient: vertical;
@@ -1423,8 +1437,16 @@ html {
 }
 
 @media only screen and (max-width: 425px) {
+  .price-list:nth-child(3) {
+    margin-right: 20px;
+  }
   .plan {
     margin: 0;
+    padding-right: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
   .plan__title {
     font-size: 22px;
@@ -1475,6 +1497,19 @@ html {
   }
   .pricing__standart {
     -webkit-box-flex: 0;
+        -ms-flex: 0 1 267px;
+            flex: 0 1 267px;
+  }
+  .pricing__premium {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 276px;
+            flex: 0 1 276px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .pricing__standart {
+    -webkit-box-flex: 0;
         -ms-flex: 0 1 276px;
             flex: 0 1 276px;
   }
@@ -1483,6 +1518,10 @@ html {
         -ms-flex: 0 1 276px;
             flex: 0 1 276px;
   }
+}
+
+.price-list:nth-child(3) {
+  margin-right: 15px;
 }
 
 /*---------------------------testimonials-------------------------------*/
@@ -1524,7 +1563,7 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 450px;
+  max-width: 350px;
   max-height: 215px;
   scroll-behavior: smooth;
   overflow: hidden;
@@ -1610,7 +1649,8 @@ html {
     width: 90%;
   }
   .testimonials__right {
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -1618,8 +1658,21 @@ html {
   .testimonials__img img {
     width: 100%;
   }
+  .trusted__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 230px;
+    max-height: 215px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
   .testimonials__right {
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
   }
   .trusted__title {
     font-size: 28px;
@@ -1651,7 +1704,7 @@ html {
     display: none;
   }
   .trusted__wrap {
-    max-width: 400px;
+    max-width: 250px;
   }
   .trusted__title {
     font-size: 26px;
@@ -1659,6 +1712,27 @@ html {
   .testimonials {
     padding-top: 20px;
     margin-bottom: 20px;
+  }
+  .testimonials__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonials__right {
+    padding-bottom: 20px;
+  }
+  .trusted {
+    width: 320px;
   }
 }
 
@@ -1727,6 +1801,7 @@ html {
 }
 
 .news-left {
+  padding-top: 5px;
   min-height: 530px;
   max-width: 556px;
   display: -webkit-box;
@@ -1794,6 +1869,9 @@ html {
 }
 
 @media only screen and (max-width: 1024px) {
+  .news {
+    min-height: 800px;
+  }
   .blog-items {
     max-width: 950px;
   }
@@ -1806,6 +1884,9 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .news {
+    margin: 20px 0;
+  }
   .blog-items {
     max-width: 700px;
     -webkit-box-orient: vertical;
@@ -1843,13 +1924,31 @@ html {
 }
 
 @media only screen and (max-width: 425px) {
+  .news-left {
+    min-height: 430px;
+    margin-bottom: 20px;
+  }
+  .title-active {
+    text-align: center;
+  }
+  .news-left__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news {
+    margin: 0;
+  }
   .container {
     width: 425px;
   }
   .blog-title {
     max-width: 400px;
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     position: relative;
   }
   .news-left {
@@ -1876,43 +1975,79 @@ html {
         -ms-flex-align: center;
             align-items: center;
   }
+  .blog-title__img {
+    left: 35%;
+    top: -10%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .news-left {
+    max-width: 375px;
+    padding-left: 10px;
+  }
+  .news-right {
+    padding-left: 0px;
+  }
+  .news-right__block {
+    width: 360px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+  .blog-title__title {
+    font-size: 24px;
+  }
+  .blog-title__text {
+    color: #929292;
+  }
+  .blog-title {
+    max-width: 320px;
+    margin-bottom: 20px;
+  }
+  .blog-items {
+    max-width: 320px;
+  }
   .container {
     width: 320px;
   }
-  .blog-title {
-    max-width: 300px;
-  }
   .news-left {
-    max-width: 300px;
-  }
-  .news-right__block {
-    width: 300px;
-  }
-  .blog-items {
-    max-width: 300px;
-  }
-  .news-right__title {
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .news-left__text {
-    line-height: 18px;
-    font-size: 10px;
+    max-width: 310px;
+    padding-left: 0px;
   }
   .news-left {
     min-height: 400px;
+    margin-bottom: 10px;
   }
-  .blog-title__title {
-    font-size: 24px;
-    line-height: 27px;
-    margin-bottom: 15px;
+  .news-right__title {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
   }
-  .blog-title__text {
-    font-size: 14px;
-    line-height: 22px;
+  .news-left__text {
+    font-size: 10px;
+    line-height: 18px;
+    padding-left: 0px;
+  }
+  .news-right__img img {
+    width: 130px;
+  }
+  .news-left__read {
+    width: 140px;
+    padding-left: 10px;
+  }
+  .title-active {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .news-right {
+    padding-left: 0px;
+  }
+  .news-right__block {
+    width: 300px;
   }
 }
 
@@ -2161,7 +2296,17 @@ input[type="email"]::placeholder {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .form__submit {
+    width: 360px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
+  .form__submit {
+    width: 310px;
+    margin-left: 10px;
+  }
   .appson {
     height: 280px;
   }
@@ -2235,7 +2380,7 @@ input[type="email"]::placeholder {
 }
 
 .footer__up {
-  display: inline-block;
+  display: none;
   width: 45px;
   height: 45px;
   border-radius: 3px;
@@ -2249,8 +2394,9 @@ input[type="email"]::placeholder {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
-  right: 8%;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
 }
 
 .link__menu {
@@ -2355,7 +2501,7 @@ input[type="email"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .footer__container {
     width: 300px;
     -webkit-box-orient: vertical;
@@ -2367,7 +2513,7 @@ input[type="email"]::placeholder {
     font-size: 8px;
   }
   .footer__up {
-    bottom: 10%;
+    bottom: 1%;
     right: 3%;
   }
   .footer__link {

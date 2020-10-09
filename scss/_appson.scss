@@ -87,8 +87,16 @@ input[type="email"]::-webkit-input-placeholder { color: #ffffff; }
     }
 
 }
-
+@media only screen and (max-width: 375px) {
+    .form__submit{
+        width: 360px;
+    }
+}
 @media only screen and (max-width: 320px) {
+    .form__submit{
+        width: 310px;
+        margin-left: 10px;
+    }
     .appson {
         height: 280px;
     

@@ -108,7 +108,7 @@
 }
 @media only screen and (max-width: 425px){
     .features {
-        
+        min-height: 500px;
         &__item {
             margin-top: 50px;
             scroll-behavior: smooth;
