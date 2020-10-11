@@ -2380,6 +2380,7 @@ input[type="email"]::placeholder {
 }
 
 .footer__up {
+  margin-right: 140px;
   display: none;
   width: 45px;
   height: 45px;
@@ -2395,6 +2396,8 @@ input[type="email"]::placeholder {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   right: 0;
   bottom: 30px;
 }
@@ -2440,6 +2443,7 @@ input[type="email"]::placeholder {
 
 @media only screen and (max-width: 1440px) {
   .footer__up {
+    margin-right: 0;
     right: 5%;
   }
 }
